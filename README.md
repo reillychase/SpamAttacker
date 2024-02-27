@@ -14,7 +14,7 @@ We are looking for developers who are interested in contributing to this project
 - [x] Identify the spammer's carrier and find the link to a form to submit abuse report
 - [ ] Add a Telegram bot with OCR so you can just text it a screenshot of the SMS spam without having to run a Python script in a terminal
 - [ ] Automate submitting the abuse forms for popular SMS providers used by spammers like Twilio
-- [ ] Add support for an unlimited free SMS provider so we can implement the [STOP/START attack](https://x.com/_rchase_/status/1761165629724246368?s=20)
+- [ ] ~~Add support for an unlimited free SMS provider so we can implement the [STOP/START attack](https://x.com/_rchase_/status/1761165629724246368?s=20)~~ Removing because it is unlikely to actually incur costs for the spammer per Tony Lewis
 - [ ] Add an AI assistant (or even just if/else for MVP) to converse with the SMS spammers and try to gather more info about their identity for further reporting
 
 ## How to get started
