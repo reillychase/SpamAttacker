@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "spamattacker"
+version = "0.1.0"
+description = "An SMS spammers worst nightmare"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+twilio = "^9.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
