@@ -253,6 +253,20 @@ files = [
 ]
 
 [[package]]
+name = "dotenv-cli"
+version = "3.2.2"
+description = "Simple dotenv CLI."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "dotenv-cli-3.2.2.tar.gz", hash = "sha256:ba889948f67c45e48ba6530be193075c89845ed12b4b86ae30ac7d0330799fda"},
+    {file = "dotenv_cli-3.2.2-py3-none-any.whl", hash = "sha256:5786a700f630610574d2f42c7aa08579b67d1150f2fac5ec6ca08fabe4cca3bc"},
+]
+
+[package.extras]
+dev = ["build", "mypy", "pytest", "pytest-cov", "ruff", "twine"]
+
+[[package]]
 name = "frozenlist"
 version = "1.4.1"
 description = "A list-like structure which implements collections.abc.MutableSequence"
@@ -626,4 +640,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "fd268a8828fa82d29e49a1d3124760a47f8db838fe747e46fdf0e5f240dd47c2"
+content-hash = "55f082c482fd3bcf2217e275c9d3baefc9d9b6613c703e9f655c7f1a670dc57c"
