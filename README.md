@@ -35,14 +35,14 @@ Install requirements
 pip3 install poetry
 poetry install
 ```
-Setup env file and fill out missing values
+Copy .env.example to .env and fill out missing values
 ```
 cp .env.example .env
 ```
 
 Run the script with the spammer's number
 ```
-python3 main.py --number "+18336585034"
+poetry run dotenv start --number "+18336585034"
 ```
 Example output
 ```
