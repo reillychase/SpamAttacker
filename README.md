@@ -23,15 +23,6 @@ Create a Twilio account
 
 Copy your Account SID and Auth Token
 
-Add this to ``` ~/.bash_profile ```
-```
-export TWILIO_ACCOUNT_SID="""
-export TWILIO_AUTH_TOKEN="""
-```
-
-
-For macOS terminals also do ```echo "source ~/.bash_profile" >> ~/.zshrc```
-
 Next download the repo
 ```
 git clone https://github.com/reillychase/SpamAttacker.git
@@ -41,8 +32,14 @@ cd SpamAttacker
 ```
 Install requirements
 ```
-pip3 install twilio
+pip3 install poetry
+poetry install
 ```
+Setup env file and fill out missing values
+```
+cp .env.example .env
+```
+
 Run the script with the spammer's number
 ```
 python3 main.py --number "+18336585034"
